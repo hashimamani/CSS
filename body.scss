@@ -1,0 +1,18 @@
+ //* Cytonn Technologies
+ //*
+ //* @author: Hashim Amani <hamani@cytonn.com>
+ //*
+ //* Project: CSS3/SASS.
+
+
+//body styling
+
+body {
+
+font-family: "Roboto", sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+@include body(right, #76b852, #8DC26F)
+   
+}

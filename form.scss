@@ -1,0 +1,64 @@
+ //* Cytonn Technologies
+ //*
+ //* @author: Hashim Amani <hamani@cytonn.com>
+ //*
+ // * Project: CSS3/SASS.
+
+//form styling
+
+
+.form_basics{
+  
+ font-family: "Roboto", sans-serif;
+ outline: 0;
+ width: 100%;
+ border: 0;
+ padding: 15px;
+
+}
+
+.form {
+  
+  text-align: center;
+  box-shadow: $shadow
+}
+.form input {
+
+  
+  @extend.form_basics     //extended form_basics
+  
+  outline: 0;
+  background: #f2f2f2;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+
+
+  @extend.form_basics      //extended form_basics
+  
+  text-transform: uppercase;
+  background: #4CAF50;
+  color: $bg;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+

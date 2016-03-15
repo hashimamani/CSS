@@ -1,0 +1,29 @@
+
+ //* Cytonn Technologies
+ //*
+ //* @author: Hashim Amani <hamani@cytonn.com>
+ //*
+ // * Project: CSS3/SASS.
+
+
+
+ //variables
+
+
+$l_width:360px;
+$l_padding:8% 0 0;
+$l_margin:auto;
+$fpos:relative;
+$index:1;
+$bg:#FFFFFF;
+$shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+@mixin body($pos, $color1, $color2) {
+ 
+  background: -webkit-linear-gradient($pos, $color1, $color2);
+  background: -moz-linear-gradient($pos, $color1, $color2);
+  background: -o-linear-gradient($pos, $color1, $color2);
+  background: linear-gradient($pos, $color1, $color2);
+  
+  }    
+
